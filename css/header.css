@@ -1,0 +1,69 @@
+#bloc-page {
+  /* padding-right: 20px;
+  padding-left: 20px; */
+  /* padding-top: 10px; */
+  /* padding-left: 20px;
+  padding-right: 20px;
+  width: 400px !important;
+  background: red;
+  margin: 0 auto;
+  position: relative; */
+}
+#header {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/xenaBanner.jpg);
+  background-position: center;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+.sous-header img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+h1 {
+  color: red;
+  font-weight: 600;
+}
+#background {
+  position: absolute;
+  position: fixed;
+  background: rgba(0, 31, 139, 0.5);
+  padding-left: 20px;
+
+  width: 100%;
+
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.r {
+  background: red !important;
+  margin-top: 500px;
+}
+.navHeader {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  color: darkgrey;
+}
+.navHeader li {
+  list-style-type: none;
+}
+.sous-header {
+  display: flex;
+  gap: 100px;
+  padding-right: 40px;
+}

@@ -1,0 +1,8 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+#bloc-page {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
