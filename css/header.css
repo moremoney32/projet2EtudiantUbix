@@ -1,28 +1,10 @@
-#bloc-page {
-  /* padding-right: 20px;
-  padding-left: 20px; */
-  /* padding-top: 10px; */
-  /* padding-left: 20px;
-  padding-right: 20px;
-  width: 400px !important;
-  background: red;
-  margin: 0 auto;
-  position: relative; */
-}
 #header {
-  position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/xenaBanner.jpg);
+  background-image: url(../images/romance1.jpg);
   background-position: center;
   height: 400px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-attachment: fixed;
-  object-fit: cover;
+  width: 100%;
 }
 .sous-header img {
   width: 20px;
@@ -31,28 +13,21 @@
   object-fit: cover;
 }
 h1 {
-  color: red;
+  color: #ffffff;
   font-weight: 600;
+  font-size: 30px;
 }
 #background {
-  position: absolute;
-  position: fixed;
   background: rgba(0, 31, 139, 0.5);
-  padding-left: 20px;
-
-  width: 100%;
-
-  left: 0;
-  top: 0;
-  right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.r {
-  background: red !important;
-  margin-top: 500px;
-}
+
 .navHeader {
   display: flex;
   gap: 20px;
@@ -64,6 +39,5 @@ h1 {
 }
 .sous-header {
   display: flex;
-  gap: 100px;
-  padding-right: 40px;
+  gap: 30px;
 }
