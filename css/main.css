@@ -1,0 +1,86 @@
+.main{
+    background:#0D0713;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.bloc1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.titleMain{
+    display: flex;
+    flex-direction: column;
+}
+.titleMain :nth-child(1){
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.titleMain :nth-child(2){
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    width: 100%;
+    background: red;
+}
+.btn :nth-child(1){
+    background:black;
+    width: 75%;
+    outline: none;
+    border:1px solid #1E1E1E;
+    padding-left: 15px;
+}
+::placeholder{
+    color: white;
+}
+.btn :nth-child(2){
+    background: blue;
+    color: white;
+    width: 25%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+}
+.parentCategories{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+.parentCategories :nth-child(1){
+    color: white;
+    font-size: 20px;
+}
+.sous-parentCategories{
+    display: flex;
+    gap: 15px;
+}
+.child-sous-parentCategories{
+    padding:8px;
+    border-radius: 20px;
+    background: #1E1E1E;
+    color: white;
+    font-size: 15px;
+    padding-top: 12px;
+}
+#action{
+    padding:12px;
+    border-radius: 20px;
+    background: #1E1E1E;
+    color: white;
+    font-size: 15px;
+
+}
+
