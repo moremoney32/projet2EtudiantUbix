@@ -81,6 +81,93 @@
     background: #1E1E1E;
     color: white;
     font-size: 15px;
+}
+.direction{
+    display: flex;
+    gap: 5px;
+}
+.direction img{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    background: blue;
+}
+.child1bloc2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #1E1E1E;
+}
+.child1bloc2 :nth-child(1){
+    color: white;
+    border-bottom:2px solid blue;
+    font-weight: 500;
+    font-size: 20px;
+}
+.child1bloc2:hover{
+    border-bottom:4px solid blue;
+    cursor: pointer;
 
 }
+/* .child1bloc2 .child1bloc2:nth-child(1):hover{
+    border:1px solid red;
+
+} */
+.bloc2{
+    display: flex;
+    gap:25px;
+    flex-direction: column;
+}
+.parentBloc2Photo{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    position: relative;
+    background: #1E1E1E;
+}
+.bloc2Photo{
+    display: flex !important;
+    width: 100%;
+    gap:10px;
+}
+.sous-blocPhoto{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.sous-blocPhoto img{
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.sous-titre{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sous-titre :nth-child(1){
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.sous-titre :nth-child(2){
+    font-size: 15px;
+    color:white;
+    transform: translate3d(0,-5px,0);
+    
+}
+.sous-titre :nth-child(3){
+    font-size: 13px;
+    color: yellow;
+}
+.voirPlus{
+    color: white;
+    position: absolute;
+    right:15px;
+    bottom:20px;
+    text-decoration: underline;
+}
+
 
